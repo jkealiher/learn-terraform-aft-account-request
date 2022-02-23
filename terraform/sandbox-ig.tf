@@ -6,8 +6,8 @@ module "sandbox" {
     AccountName               = "sandbox-aft-isaiah"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "igrant@2ndwatch.com"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    SSOUserFirstName          = "Isaiah"
+    SSOUserLastName           = "Grant"
   }
 
   account_tags = {
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "sandbox-ig"
 }
